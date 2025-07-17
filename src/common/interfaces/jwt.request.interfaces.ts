@@ -1,4 +1,4 @@
 export interface ResponseJwtType {
-    accessToken: string,
-    refreshToken: string
+  accessToken: string;
+  refreshToken: string;
 }

@@ -2,7 +2,6 @@ import { INestApplication, ValidationPipe } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 export async function setterAppConfigurations(app: INestApplication) {
-
   app.setGlobalPrefix('api');
 
   const config = new DocumentBuilder()

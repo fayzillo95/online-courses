@@ -6,7 +6,7 @@ import { join } from 'path';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(process.cwd(), 'uploads',"courses"),
+      rootPath: join(process.cwd(), 'uploads', 'courses'),
       serveRoot: '/uploads', // URL prefix
     }),
   ],

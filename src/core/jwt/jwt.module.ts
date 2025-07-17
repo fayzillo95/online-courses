@@ -4,8 +4,8 @@ import { JwtModule, JwtService } from '@nestjs/jwt';
 
 @Global()
 @Module({
-  imports : [JwtModule.register({})],
-  providers: [JwtSubService,JwtService],
-  exports : [JwtSubService]
+  imports: [JwtModule.register({})],
+  providers: [JwtSubService, JwtService],
+  exports: [JwtSubService],
 })
 export class JwtSubModule {}

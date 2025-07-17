@@ -5,6 +5,6 @@ import { RedisSubModule } from './redis/redis.module';
 import { StaticModule } from './static.module';
 
 @Module({
-  imports: [StaticModule, PrismaModule, JwtSubModule, RedisSubModule]
+  imports: [StaticModule, PrismaModule, JwtSubModule, RedisSubModule],
 })
 export class CoreModule {}
